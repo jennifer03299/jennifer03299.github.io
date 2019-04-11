@@ -1,0 +1,195 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../image/Drawing.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+}
+
+.card {
+    display: inline-block;
+    position: relative;
+    background-color: #fff;
+    padding: 90px 70px;
+    margin-top: 100px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    height: 50vh;
+    width: 40vw;
+}
+
+.banner {
+    margin-top: 20px;
+}
+
+.content {
+    margin-top: 30px;
+}
+
+@font-face {
+    font-family: 'Sitka';
+    src: url('../Sitka-Regular.otf');
+}
+
+
+}
+h1,
+h2 {
+    opacity: 0;
+    color: ;
+    animation-name: appear;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+    animation-duration: 0.5s;
+}
+h1 {
+    font-family: "Sitka", sans-serif;
+    font-size: 55px;
+    font-weight: 400;
+    margin: 0px;
+    line-height: 15px;
+}
+h2 {
+    font-family: "Sitka", sans-serif;
+    font-size: 45px;
+    margin: 0px;
+}
+h3,
+h4 {
+    opacity: 0;
+    animation-name: appear;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    animation-duration: 3s;
+}
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    color: rgb(59, 59, 59);
+    line-height: 10px;
+}
+h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffb7a3;
+    line-height: 13px;
+}
+@media(max-width: 768px) {
+    .card {
+        padding: 20px;
+        margin: 60px auto;
+    }
+    
+    h1 {
+        font-size: 30px;
+    }
+    
+    h2 {
+        font-size: 25px;
+    }
+    
+    h3 {
+        font-size: 10px;
+    }
+    
+    .photo {
+        visibility: hidden;
+    }
+}
+.line {
+    margin-top: 10px;
+    width: 200px;
+    height: 3px;
+    background-color: #000000;
+}
+.btn {
+    display: inline-block;
+    height: 90px;
+    width: 90px;
+    margin: 20px;
+    opacity: 0;
+    animation-name: appear;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    animation-duration: 3s;
+    transition: all 0.5s;
+}
+.btn:hover {
+    transform: scale(1.2);
+    transition-delay: 0.1s;
+    transform-origin: center;
+}
+.btn.btn-1 {
+    border-radius: 50%;
+    background-color: #f5d1c3;
+}
+.btn.btn-1:hover {
+    background-color: #e2b2a3;
+}
+.btn.btn-2 {
+    border-radius: 50%;
+    background-color: #f0bc68;
+}
+.btn.btn-2:hover {
+    background-color: #e0a855;
+}
+.btn.btn-3 {
+    border-radius: 50%;
+    background-color: #aab8bb;
+}
+.btn.btn-3:hover {
+    background-color: #83989b;
+}
+.italic {
+    font-style: italic;
+}
+.bold {
+    font-weight: bold;
+}
+.photo {
+    z-index: 1;
+    background-image: url(../image/去背的.png);
+    height: 600px;
+    opacity: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    left: 40px;
+    bottom: 20px;
+    transform: scaleX(-1);
+    animation-name: appear;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+    
+    100% {
+        opacity: 1;
+    }
+}
+.btn-row {
+    margin-top: 20px;
+    height: 100px;
+}
+
+/*icons*/
+i.fa-3x {
+    position: relative;
+    height: 90px;
+    width: 90px;
+    text-align: center;
+    color: #000000;
+    vertical-align: middle;
+    line-height: 90px;
+}
+i:hover {
+    color: #fff;
+}
