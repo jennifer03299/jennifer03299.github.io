@@ -1,0 +1,148 @@
+* {
+    position: relative;
+    box-sizing: border-box;
+}
+.color1{
+  color: #84ABC8;
+}
+.color2{
+  color: #E16C30;
+}
+.color3{
+  color: #F2C87C;
+}
+.color4{
+  color: #3B8383;
+}
+.color5{
+  color: #F2E3C2;
+}
+.color6{
+  color: #EFA67D;
+}
+
+.background{
+  position: fixed;
+  top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+  background-color: #FAF4E6;
+  z-index: -2;
+}
+a:hover{
+  text-decoration: none;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.navbar{
+/* 	border: 2px solid #000; */
+	position: fixed;
+	top: 0;
+	left: 50%;
+  transform: translateX(-50%);
+	width: 80%;
+	z-index: 100;
+}
+.logo{
+  padding: 15px;
+/* 	border: 2px solid #000; */
+	float: left;
+}
+.navbar__nav{
+	float: right;
+}
+.navbar__item{
+  padding: 15px;
+  font-size: 35px;
+  font-family: 'Dokdo', cursive;
+  color: #000;
+  transition: all 0.3s;
+}
+.navbar__item:hover{
+  color: #EFA67D;
+}
+h1{
+  font-family: 'Dokdo', cursive;
+  font-size: 45px;
+}
+.content {
+  margin-top: 120px;
+  padding: 16px;
+  text-align: center;
+  color: #484848;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 30px;
+/* 	border: 2px solid #000; */
+  left: 25%;
+}
+.card__container{
+/* 	border: 2px solid #000; */
+  margin-top: 10px;  
+/*   height: 600px; */
+  left: 8.3334%;
+  text-align: center;
+  z-index: 1;
+}
+.card-outer{
+  display: inline-block;
+  padding: 8px;
+}
+
+.card{
+  width: 100%;
+  background-color: #F2C87C;
+  border-radius: 40px;
+  padding: 20px 10px;
+  text-align: center;
+  border: 0;
+}
+.icon{
+  margin: 20px;
+}
+h2{
+  font-size: 35px;
+  font-family: 'Dokdo', cursive;
+  margin-bottom: 10px;
+}
+.description{
+  padding: 10px;
+  line-height: 20px;
+  font-size: 10px;
+}
+h3{
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;  
+  color: black;
+}
+.btn{
+  margin-bottom: 25px;
+}
+.btn_content{
+  border-radius: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  padding: 10px 20px;
+  width: 70%;
+  margin: auto;
+  background-color: #E16C30;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.btn_content:hover{
+  background-color: #fff;
+  color: #E16C30;
+}
+.background-color{
+  position: absolute;
+  top: 70%;
+  width: 100%;
+  height: 45%;
+  background-color: #84ABC8;
+}
