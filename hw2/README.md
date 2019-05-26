@@ -11,5 +11,4 @@
 3. 更改了點擊新增按鈕跳出視窗的樣式及呈現位置
 
 * Javascript
-在Javascript的部分大部分參考了老師上課用的範例，更改的部分有：
-1. 在點擊Search按鈕跑出product-list之後，將新增商品的欄位隱藏起來
+1. 在Javascript的部分大部分參考了老師上課用的範例，更改了在點擊Search按鈕跑出product-list之後，將新增商品的欄位隱藏起來
