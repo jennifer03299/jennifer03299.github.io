@@ -319,5 +319,7 @@ ul.todo#completed:after {
 }
 
 
-
+.disappear{
+  display: none;
+}
 
