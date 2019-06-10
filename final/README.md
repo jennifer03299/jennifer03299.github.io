@@ -1,10 +1,10 @@
 # Final Project - My TO-DO List
 ## 國企三 鄭婷心 B05704017
 
-* 期末專題主題簡介
+* 期末專題主題簡介:
 一個簡單的todo-list，可以將to do項目加入、勾選已完成的項目及刪除不需要的項目，也可以選擇要記錄下每個項目的due date。Todo list下面有一個簡單的時間顯示器，讓使用者可以確認現在當下的時間。
 
-* 怎麼使用這個網站
+* 怎麼使用這個網站:
 在寫下todo-list之後跟due date之後按下加號就可以加入新的todo item，也可以選擇只寫下todo item但不寫due date
 
 * 使用的技術
